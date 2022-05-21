@@ -1,0 +1,174 @@
+
+
+
+*
+{
+    font-family: 'Manrope', sans-serif;
+}
+
+body
+{
+    margin: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1400px;
+    background-color: #ffffff;
+}
+
+h1
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h2
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin: auto;
+}
+
+h4
+{
+    font-size: 30px;
+    font-weight: 300;
+}
+h3
+{
+    font-size: 50px;
+    font-weight: 300;
+    font-family: Garamond;
+    font-style: italic;
+}
+
+p
+{
+    font-size: 16px; 
+}
+
+a 
+{
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    max-width: 1550px;
+    margin: auto;
+}
+
+
+main
+{
+    max-width: 1550px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* BLOCK1 */
+.bloc1{
+  display: flex;
+  padding-top: 30px;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+}
+.competences p{
+  font-size: 18px;
+  margin: auto;
+}
+.designer{
+  display: flex;
+}
+.designer h2{
+  font-size: 90px;
+  padding-left: 10px;
+  margin: auto;
+}
+.designer i{
+  font-size: 50px;
+  padding-left: 20px;
+  margin: auto;
+}
+
+/* BLOCK2 */
+.bloc2{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-basis: 100%;
+}
+.info-header H3, H4{
+  margin: auto;
+}
+.info-header H3{
+  padding-bottom: 15px;
+}
+.bloc2 video{
+  width: 80%;
+  object-fit: cover;
+  object-position: center;
+}
+.image-header{
+  width: 100%;
+  padding-top: 20px;
+}
+
+
+
+
+
+/* NAVIGATION */
+
+nav 
+{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: solid black 1px;
+
+
+}
+
+#Logo
+{
+    padding: 30px;
+    margin-right: auto;
+}
+
+nav a
+{
+    padding: 10px;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+
+
+.sub_nav
+{
+    display: flex;
+}
+
+.sub_nav a:hover
+{
+  border: solid black 1px;
+  border-radius: 30px;
+
+}
+.sub_nav a:focus
+{
+  border: solid black 1px;
+  border-radius: 30px;
+
+}
+
+
+
+    
+
