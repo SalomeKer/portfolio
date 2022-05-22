@@ -166,11 +166,16 @@ nav {
       } }
 
       @media screen and (max-width: 495px) {
+        
+        .bloc2 video{
+          width: 100%;
+        }
+        
         .competences p{
             font-size: 10px;
           }
           .designer h2{
-            font-size: 60px;
+            font-size: 40px;
           } }
           @media screen and (max-width: 900px) {
             .toggle{
@@ -213,10 +218,11 @@ nav {
               height: 414px;
               background-color: white;
               flex-direction: column;
-              padding: 20px;
               justify-content: space-around;
               transform: translateX(-100%) ;
               transition: 1s;
+              margin-top: 70px;
+              padding:0%;
             }
             .menu li a {
               font-size: 20px;
