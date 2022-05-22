@@ -215,14 +215,14 @@ nav {
               flex-direction: column;
               padding: 20px;
               justify-content: space-around;
-              transform: translateX(-150%) ;
+              transform: translateX(-100%) ;
               transition: 1s;
             }
             .menu li a {
               font-size: 20px;
             }
             .open .menu{
-              transform:translateX(0)
+              transform:translateX(0%)
             }
             }
 
