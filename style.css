@@ -9,15 +9,14 @@
 body
 {
     margin: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    max-width: 1400px;
+    padding-left: 20px;
+    padding-right: 20px;
     background-color: #ffffff;
 }
 
 h1
 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -66,7 +65,8 @@ main
 /* BLOCK1 */
 .bloc1{
   display: flex;
-  padding-top: 75px;
+  padding-top: 40px;
+  padding-bottom: 30px;
   align-items: center;
   justify-content: center;
   flex-basis: 100%;
@@ -88,25 +88,28 @@ main
 /* BLOCK2 */
 .bloc2{
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   flex-basis: 100%;
-  margin: auto;
 }
 .info-header H3, H4{
   margin: auto;
+}
+.fleche{
+  font-size: 30px;
 }
 .info-header H3{
   padding-bottom: 15px;
 }
 .bloc2 video{
-  width: 80%;
+  width: 65%;
   display: flex;
 }
+
 .image-header{
   width: 100%;
-  padding-top: 20px;
 }
 
 /* HEADER */
@@ -156,14 +159,45 @@ nav {
   border-radius: 30px;
 
 }
+.infoos{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.infoos i{
+  font-size: 20px;
+  padding-top: 12px;
+}
+.infoos a{
+  font-size: 15px;
+  padding: 10px;
+  border: solid black 1px;
+  border-radius: 30px;
+}
+.infoos a:hover{
+  font-size: 15px;
+  transition: 0.5s;
+  padding: 10px;
+  color: #ffffff;
+  border: solid black 1px;
+  background-color: black;
+  border-radius: 30px;
+}
 
 @media screen and (max-width: 787px) {
+
+  .bloc2{
+    padding-bottom: 20px;
+  }
     .competences p{
         font-size: 14px;
       }
       .designer h2{
         font-size: 75px;
       } }
+  
 
       @media screen and (max-width: 495px) {
         
