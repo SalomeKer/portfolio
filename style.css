@@ -9,8 +9,6 @@
 body
 {
     margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
     background-color: #ffffff;
 }
 
@@ -36,10 +34,8 @@ h4
 }
 h3
 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 300;
-    font-family: Garamond;
-    font-style: italic;
 }
 
 p
@@ -60,6 +56,24 @@ main
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+
+}
+#typedtext{
+  text-align: center;
+  font-size: 20px;
+  justify-content: center;
+  padding: 20px;
+  
+}
+
+
+.bloc0{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(-45deg,#c29cd7,#ffc8dd,#ffafcc,#bde0fe,#a2d2ff,#d6b2ee,#ffafcc,#bde0fe,#a2d2ff);
+  background-size: 300% 300%;
+  position: relative;
+  animation: moving 10s ease-in-out infinite;
 }
 
 /* BLOCK1 */
@@ -93,6 +107,13 @@ main
   align-items: center;
   justify-content: center;
   flex-basis: 100%;
+
+}
+.conteneur1{
+  max-width: 800px;
+  max-height: 600px;
+  align-items: center;
+  margin: auto;
 }
 .info-header H3, H4{
   margin: auto;
@@ -164,11 +185,14 @@ nav {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
   justify-content: center;
+  padding-top: 50px;
 }
 .infoos i{
   font-size: 20px;
-  padding-top: 12px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 .infoos a{
   font-size: 15px;
@@ -185,6 +209,74 @@ nav {
   background-color: black;
   border-radius: 30px;
 }
+
+.conteneur2{
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+.conteneur2 p{
+  font-size: 35px;
+  padding: 30px 25px 0 25px;
+}
+
+.Service{
+    padding-top: 80px;
+    padding-left: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: center;
+    
+    flex-basis: 100%;
+  
+  }
+  
+
+
+
+
+@keyframes moving{
+   0%{
+     background-position: 0 50%;
+   }
+   50%{
+    background-position: 100% 50%;
+   }
+   100%{
+    background-position: 0 50%;
+   }
+
+}
+
+.Service img{
+  max-width: 100px;
+  max-height: 100px;
+  margin: auto;
+}
+
+
+.Service div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+
+
+
+
+}
+.Service h2{
+  flex-basis: 100%;
+  text-align: center;
+  margin: auto;
+  font-weight: 600;
+  font-size: 45px;
+  padding-bottom: 30px;
+}
+
 
 @media screen and (max-width: 787px) {
 
@@ -217,7 +309,6 @@ nav {
                 font-size: 20px;
                 cursor: pointer;
                 position: relative;
-                z-index: 20;
               }
               .bloc1{
                 padding-top: 50px;
@@ -246,6 +337,7 @@ nav {
 
             .menu {
               position: absolute;
+              z-index: 1;
               top: 0;
               left: 0;
               width: 100%;
@@ -266,3 +358,145 @@ nav {
             }
             }
 
+            
+            
+            
+            
+            
+            
+            .macbook {
+              width: 700px;
+            }
+            
+            .screen {
+              background: #000;
+              border-radius: 3% 3% 0.5% 0.5% / 5%;
+              margin: 0 auto;
+              /* for aspect ratio */
+              position: relative;
+              width: 80%;
+            }
+            
+            .screen:before {
+              border: 2px solid #cacacc;
+              border-radius: 3% 3% 0.5% 0.5% / 5%;
+              box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.8) inset, 0 0 1px 2px rgba(255, 255, 255, 0.3) inset;
+              content: "";
+              display: block;
+              /* for aspect ratio ~67:100 */
+              padding-top: 67%;
+            }
+            
+            .screen:after {
+              content: "";
+              border-top: 2px solid rgba(255, 255, 255, 0.15);
+              position: absolute;
+              bottom: 0.75%;
+              left: 0.5%;
+              padding-top: 1%;
+              width: 99%;
+            }
+            
+            .viewport {
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              top: 0;
+              margin: 4.3% 3.2%;
+              background: rgb(255, 255, 255);
+            }
+            
+            
+            .base {
+              /* for aspect ratio */
+              position: relative;
+              width: 100%;
+            }
+            
+            .base:before {
+              content: "";
+              display: block;
+              /* for aspect ratio ~33:1000*/
+              padding-top: 3.3%;
+              /* stylin */
+              background: linear-gradient(#eaeced, #edeef0 55%, #fff 55%, #8a8b8f 56%, #999ba0 61%, #4B4B4F 84%, #262627 89%, rgba(0, 0, 0, .01) 98%);
+              border-radius: 0 0 10% 10%/ 0 0 50% 50%;
+            }
+            
+            .base::after {
+              background: linear-gradient(90deg, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.8) 0.5%, rgba(0, 0, 0, 0.4) 3.3%, transparent 15%, rgba(255, 255, 255, 0.8) 50%, transparent 85%, rgba(0, 0, 0, 0.4) 96.7%, rgba(255, 255, 255, 0.8) 99.5%, rgba(0, 0, 0, 0.5) 100%);
+              content: "";
+              height: 53%;
+              position: absolute;
+              top: 0;
+              width: 100%;
+            }
+            
+            .notch {
+              background: #ddd;
+              border-radius: 0 0 7% 7% / 0 0 95% 95%;
+              box-shadow: -5px -1px 3px rgba(0, 0, 0, 0.2) inset, 5px -1px 3px rgba(0, 0, 0, 0.2) inset;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: -3.5%;
+              z-index: 2;
+              /* for aspect ratio */
+              position: relative;
+              width: 14%;
+            }
+            
+            .notch:before {
+              content: "";
+              display: block;
+              /* for aspect ratio ~1:10 */
+              padding-top: 10%;
+            }
+            
+            
+            /* Screenshot Hover Scroll Additions
+            -------------------------------------------------------------- */
+            
+            .macbook .viewport {
+              transition: background-position 3s ease;
+              background-position: 0 0;
+              background-size: 100% auto;
+              overflow: hidden;
+              cursor: pointer;
+            }
+            
+            .macbook:hover .viewport {
+              background-position: 0 100%;
+            }
+            
+            .macbook .viewport:after {
+              background: radial-gradient(circle at right bottom, transparent 75%, rgba(255, 255, 255, 0.05) 75%, transparent);
+              bottom: 0;
+              content: "";
+              left: 0;
+              position: absolute;
+              right: 0;
+              top: 0;
+            }
+
+
+            @media screen and (max-width: 700px) {
+
+              .macbook {
+                width: 500px;
+              }
+              .conteneur2 p{
+                font-size: 25px;
+                padding: 20px 15px 0 15px;
+              }
+                 }
+                 @media screen and (max-width: 550px) {
+
+                  .macbook {
+                    width: 400px;
+                  }
+                  .conteneur2 p{
+                    font-size: 20px;
+                    padding: 20px 15px 0 15px;
+                  }
+                     }
