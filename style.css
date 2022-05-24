@@ -258,6 +258,9 @@ nav {
    }
 
 }
+.competences p{
+  padding: 0;
+}
 
 .Service img{
   max-width: 100px;
@@ -289,7 +292,10 @@ nav {
 }
 .gradient img, h3, p{
   margin: 0 auto;
-  padding: 10px;
+}
+.dit img, h3, p{
+  margin: 0 auto;
+  padding: 9px;
 }
 
 
