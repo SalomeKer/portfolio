@@ -168,7 +168,8 @@ nav {
 }
 .menu li a{
   text-decoration: none;
-  padding: 8px;
+  padding: 7px 9px 7px 9px;
+  margin-right: 30px;
 }
 .menu a:hover{
   border: solid black 1px;
@@ -294,14 +295,15 @@ nav {
       @media screen and (max-width: 495px) {
         
         .bloc2 video{
-          width: 100%;
+          width: 95%;
         }
         
         .competences p{
             font-size: 10px;
+            font-weight: bold;
           }
           .designer h2{
-            font-size: 40px;
+            font-size: 52px;
           } }
           @media screen and (max-width: 900px) {
             .toggle{
@@ -507,3 +509,14 @@ nav {
                     padding: 20px 15px 0 15px;
                   }
                      }
+
+                     @media screen and (max-width: 550px) {
+
+                      .macbook {
+                        width: 380px;
+                      }
+                      .conteneur2 p{
+                        font-size: 20px;
+                        padding: 20px 15px 0 15px;
+                      }
+                         }
