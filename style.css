@@ -325,8 +325,11 @@ nav {
               header{
                 background: transparent;
               }
-              .menu li {
-                margin-top: 120px;
+              .menu {
+                gap: 90px;
+              }
+              .Apro{
+                margin-top: 120px; 
               }
               
             
