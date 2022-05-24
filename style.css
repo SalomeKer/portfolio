@@ -154,6 +154,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 }
 .toggle{
   display: none;
@@ -161,7 +162,6 @@ nav {
 }
 .menu{
   display: flex;
-  justify-content: space-between;
   align-items: center;
   list-style: none;
   width: 500px;
@@ -309,6 +309,8 @@ nav {
                 font-size: 20px;
                 cursor: pointer;
                 position: relative;
+                z-index: 20;
+
               }
               .bloc1{
                 padding-top: 50px;
@@ -321,6 +323,10 @@ nav {
               header{
                 background: transparent;
               }
+              .menu li {
+                margin-top: 120px;
+              }
+              
             
             .ouvrir{
               display: block;
@@ -341,14 +347,16 @@ nav {
               top: 0;
               left: 0;
               width: 100%;
-              height: 414px;
-              background-color: white;
+              height: 100%;
+              background: radial-gradient(#c29cd7,#ffc8dd,#ffafcc,#bde0fe,#a2d2ff,#f2ddff,#ffafcc,#bde0fe,#b7dcff);
+              background-size: 800% 800%;
+              animation: moving 20s ease-in-out infinite;
               flex-direction: column;
-              justify-content: space-around;
               transform: translateX(-100%) ;
               transition: 1s;
-              margin-top: 70px;
+              margin: 0px;
               padding:0%;
+              
             }
             .menu li a {
               font-size: 20px;
@@ -440,7 +448,6 @@ nav {
               margin-left: auto;
               margin-right: auto;
               margin-top: -3.5%;
-              z-index: 2;
               /* for aspect ratio */
               position: relative;
               width: 14%;
