@@ -28,7 +28,7 @@ TxtType.prototype.tick = function() {
     this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
     var that = this;
-    var delta = 80 - Math.random() * 40;
+    var delta = 70 - Math.random() * 40;
 
     if (this.isDeleting) { delta /= 2; }
 
@@ -61,3 +61,19 @@ window.onload = function() {
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
+
+var scroll = window.requestAnimationFrame ||
+function(callback){window.setTimeout(callback,1000/60)}
+
+var elementsToShow = document.querySelectorAll('.show-on-scroll')
+function loop(){
+  elementsToShow.forEach(function (element){
+    if (isElelentInviewport(element)){
+      element.classList.add('is-visible')
+    }else{
+      element.classList.remove('is-visible')
+    }
+  })
+  scroll(loop)
+}
+loop()
