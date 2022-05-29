@@ -296,7 +296,6 @@ nav {
     box-shadow: 0px 0px 30px 0px #9b9898;
     background-size: 100%;
     background-position: top;
-    transition: ease-in-out 8s;
   }
   .p2img:hover{
     
@@ -406,8 +405,17 @@ nav {
   padding-bottom: 10px;
 }
 
+@media screen and (max-width: 550px) {
 
-@media screen and (max-width: 787px) {
+  .p2img{
+  width: 400px;
+  height: 247px;
+  transition: none;
+}
+    
+    }
+    
+    @media screen and (max-width: 787px) {
 
   .bloc2{
     padding-bottom: 20px;
