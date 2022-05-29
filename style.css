@@ -412,6 +412,15 @@ nav {
   height: 247px;
   transition: none;
 }
+.mesprojetscont h2{
+     font-size: 40px;
+}
+.Service h2{
+  font-size: 40px;
+}
+.mesprojetscont {
+  text-align: center;
+}
     
     }
     
@@ -437,6 +446,11 @@ nav {
         
         .bloc2 video{
           width: 95%;
+        }
+        .p2img{
+          width: 360px;
+          height: 220px;
+          transition: none;
         }
         
         .competences p{
