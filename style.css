@@ -3,7 +3,7 @@
 
 *
 {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Manrope', sans-serif;
 }
 
 body
@@ -296,10 +296,11 @@ nav {
     box-shadow: 0px 0px 30px 0px #9b9898;
     background-size: 100%;
     background-position: top;
+    transition: all 0.3s ease-in-out;
   }
   .p2img:hover{
     
-    background-position: bottom;
+    transform: scale(1.02);
   }
 
 .p01{
@@ -337,6 +338,26 @@ nav {
 .projet2{
   padding-left: 40px;
   padding-bottom: 40px;
+}
+footer {
+  flex-basis: 100%;
+  max-height: 130px;
+  background-color: #000;
+  color: white;
+  padding: 20px;
+}
+.copring{
+  justify-content: center;
+  text-align: center;
+}
+.copring p{
+  padding-top: 15px;
+  color: #262627;
+
+}
+.footer01 p{
+  padding-left: 40px;
+  align-items: center;
 }
 
 
