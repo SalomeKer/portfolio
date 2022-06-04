@@ -22,7 +22,7 @@ h1
 
 h2
 {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 600;
     margin: auto;
 }
@@ -125,12 +125,7 @@ main
   flex-basis: 100%;
 
 }
-.conteneurProjet a{
-  font-size: 15px;
-  padding: 10px;
-  border: solid black 1px;
-  border-radius: 30px;
-  transition: 0.5s;}
+
 
   .conteneurProjet{
     align-items: center;
@@ -138,11 +133,6 @@ main
     justify-content: center;
   }
   
-
-.conteneurProjet a:hover{
-  background-color: #000;
-  color: white;
-}
 .conteneur1{
   max-width: 800px;
   max-height: 600px;
@@ -161,6 +151,10 @@ main
 .bloc2 video{
   width: 65%;
   display: flex;
+}
+.p1 a{
+  border-radius: 0;
+
 }
 
 
@@ -278,6 +272,10 @@ nav {
 
 
 }
+.blocA{
+  width: 100%;
+  
+}
 
 .mesprojetscont h2{
   font-size: 45px;
@@ -289,7 +287,7 @@ nav {
   margin-right: 20px;
   flex-wrap: wrap;
 }
-.p2img{
+.p2img, .p01,.p02,.p03,.p04,.p05{
     width: 500px;
     height: 300px;
     overflow: hidden;
@@ -298,21 +296,65 @@ nav {
     background-position: top;
     transition: all 0.3s ease-in-out;
   }
+  .p06{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px 0px #9b9898;
+    background-size: 100%;
+    background-position: center;
+    transition: all 0.3s ease-in-out;
+  }
   .p2img:hover{
     
     transform: scale(1.02);
   }
 
 .p01{
-  background-image: url("./image/Greeny-min.png");
+  background-image: url("./image/Greeny-3-2.png");
 }
 .p02{
-  background-image: url("./image/VENUS.png");
+  background-image: url("./image/NEO-4-2.png");
 }
 .p03{
   background-image: url("./image/Briciole.png");
 }
+.p04{
+  background-image: url("./image/Phobogène-2.png");
+}
+.p05{
+  background-image: url("./image/Converse-affiche-2019-1.png");
+}
+.p06{
+  background-image: url("./image/closed-2.png");
 
+}
+.greeny-1{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0%;
+  padding-top: 60px;
+  text-align: center;
+}
+.greenyp1 {
+  max-width: 800px;
+}
+.greeny-1 h3{
+  font-size: 20px;
+  padding: 0%;
+  margin-bottom: 20px;
+}
+.greeny-1 p{
+  padding: 15px;
+}
+.greenyp2{
+  max-width: 600px;
+  box-shadow: 0px 0px 30px 0px #e1e2e7;
+  margin-bottom: 30px;
+
+}
 
 .conteneurProjet{
   display: flex;
@@ -358,6 +400,21 @@ footer {
 .footer01 p{
   padding-left: 40px;
   align-items: center;
+}
+
+.bloc00 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#c29cd7,#ffc8dd,#ffafcc,#bde0fe,#a2d2ff,#f2ddff,#ffafcc,#bde0fe,#b7dcff);
+  border-radius: 0 0 800px 800px;
+  background-size: 800% 800%;
+  margin: 0px;
+  padding:0%;
+  
 }
 
 
@@ -426,6 +483,8 @@ footer {
   padding-bottom: 10px;
 }
 
+
+
 @media screen and (max-width: 550px) {
 
   .p2img{
@@ -440,12 +499,61 @@ footer {
   font-size: 40px;
 }
 .mesprojetscont {
-  text-align: center;
-}
+  text-align: center;   
+    max-width: 800px;
+  }
+
     
-    }
     
+
+     }@media screen and (max-width: 830px){
+      .greenyp1{
+        max-width: 650px;
+      }
+      .greenyp2{
+        max-width: 600px;
+      }
+
+     }
+     @media screen and (max-width: 680px){
+      .greenyp1{
+        max-width: 500px;
+      }
+      .greenyp2{
+        max-width: 400px;
+      }
+
+     }
+     @media screen and (max-width: 525px){
+      .greenyp1{
+        max-width: 400px;
+      }
+      .greenyp2{
+        max-width: 300px;
+      }
+
+     }
+     @media screen and (max-width: 400px){
+      .greenyp1{
+        max-width: 350px;
+      }
+      .greenyp2{
+        max-width: 250px;
+      }
+
+     }
+     @media screen and (max-width: 350px){
+      .greenyp1{
+        max-width: 300px;
+      }
+      .greenyp2{
+        max-width: 200px;
+      }
+
+     }
+     
     @media screen and (max-width: 787px) {
+      
 
   .bloc2{
     padding-bottom: 20px;
