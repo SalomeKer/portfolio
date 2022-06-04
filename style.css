@@ -314,7 +314,7 @@ nav {
   background-image: url("./image/Greeny-3-2.png");
 }
 .p02{
-  background-image: url("./image/NEO-4-2.png");
+  background-image: url("./image/Néoo.jpg");
 }
 .p03{
   background-image: url("./image/Briciole.png");
@@ -416,6 +416,21 @@ footer {
   padding:0%;
   
 }
+.bloc000 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(#98a6ad,#ddb788,#f3c8d2);
+  border-radius: 0 0 800px 800px;
+  background-size: 800% 800%;
+  margin: 0px;
+  padding:0%;
+  
+}
+
 
 
 
