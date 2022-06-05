@@ -287,7 +287,7 @@ nav {
   margin-right: 20px;
   flex-wrap: wrap;
 }
-.p2img, .p01,.p02,.p03,.p04,.p05{
+.p2img, .p01,.p02,.p04,.p05{
     width: 500px;
     height: 300px;
     overflow: hidden;
@@ -305,6 +305,16 @@ nav {
     background-position: center;
     transition: all 0.3s ease-in-out;
   }
+  .p03{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0px 0px 30px 0px #9b9898;
+    background-size: 100%;
+    background-position: center;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+  }
   .p2img:hover{
     
     transform: scale(1.02);
@@ -317,7 +327,7 @@ nav {
   background-image: url("./image/Néoo.jpg");
 }
 .p03{
-  background-image: url("./image/Briciole.png");
+  background-image: url("./image/Little\ Seoul\ 1-2.png");
 }
 .p04{
   background-image: url("./image/Phobogène-2.png");
@@ -354,6 +364,18 @@ nav {
   box-shadow: 0px 0px 30px 0px #e1e2e7;
   margin-bottom: 30px;
 
+}
+.seoulp1{
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.seoulp2{
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+.seoulp3{
+  max-width: 600px;
+  margin-bottom: 20px;
 }
 
 .conteneurProjet{
