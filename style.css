@@ -340,7 +340,7 @@ nav {
   background-image: url("./image/Converse-affiche-2019-1.png");
 }
 .p06{
-  background-image: url("./image/closed-2.png");
+  background-image: url("./image/maya.png");
 
 }
 .greeny-1{
@@ -461,6 +461,20 @@ position: relative;}
   width: 100%;
   height: 100%;
   background: radial-gradient(#98a6ad,#ddb788,#f3c8d2);
+  border-radius: 0 0 800px 800px;
+  background-size: 800% 800%;
+  margin: 0px;
+  padding:0%;
+  
+}
+.bloc0000 {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:#dddfe4;
   border-radius: 0 0 800px 800px;
   background-size: 800% 800%;
   margin: 0px;
