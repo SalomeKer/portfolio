@@ -23,7 +23,7 @@ h1
 h2
 {
     font-size: 40px;
-    font-weight: 550;
+    font-weight: 600;
     margin: auto;
 }
 
@@ -95,11 +95,15 @@ main
 /* BLOCK1 */
 .bloc1{
   display: flex;
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 30px;
   align-items: center;
   justify-content: center;
   flex-basis: 100%;
+}
+.greeny-1 p{
+     padding-left: 20px;
+     padding-right: 20px;
 }
 .competences p{
   font-size: 18px;
@@ -193,6 +197,7 @@ nav {
   display: flex;
   align-items: center;
   list-style: none;
+  width: 500px;
   gap: 35px;
 
 }
@@ -247,11 +252,11 @@ nav {
 }
 .conteneur2 p{
   font-size: 35px;
-  padding: 60px 25px 0 25px;
+  padding: 80px 25px 0 25px;
 }
 
 .Service{
-    padding-top: 80px;
+    padding-top: 50px;
     padding-left: 10px;
     padding-left: 10px;
     gap: 40px;
@@ -345,10 +350,12 @@ nav {
   align-items: center;
   margin: 0%;
   padding-top: 60px;
+  padding-bottom: 30px;
   text-align: center;
 }
 .greenyp1 {
   max-width: 800px;
+  padding-bottom: 20px;
 }
 .greeny-1 h3{
   font-size: 20px;
@@ -356,7 +363,7 @@ nav {
   margin-bottom: 20px;
 }
 .greeny-1 p{
-  padding: 15px;
+  padding-bottom: 30px;
 }
 .greenyp2{
   max-width: 600px;
@@ -416,8 +423,8 @@ footer {
   margin-top: -49px;
   color: white;
   padding: 50px;
-  position: relative;
-}
+  z-index: 6;
+position: relative;}
 .copring{
   justify-content: center;
   text-align: center;
